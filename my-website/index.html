@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高雄經典現代建築與空間設計</title>
+    <style>
+        /* 基礎樣式與背景顏色 */
+        body {
+            font-family: "Helvetica Neue", Arial, "Segoe UI", "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 頁首樣式 */
+        header {
+            background-color: #1a365d;
+            color: #fff;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0 0 1rem 0;
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+
+        .student-info {
+            font-size: 1.1rem;
+            color: #cbd5e0;
+        }
+
+        .student-info span {
+            margin: 0 15px;
+            border-bottom: 1px dashed #cbd5e0;
+            padding-bottom: 2px;
+        }
+
+        /* 主要內容區塊 */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        section h2 {
+            color: #2c5282;
+            border-left: 5px solid #319795;
+            padding-left: 10px;
+            margin-bottom: 1.5rem;
+        }
+
+        /* 地標卡片排版 */
+        .landmark-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #2d3748;
+        }
+
+        .card p {
+            color: #4a5568;
+            font-size: 0.95rem;
+            flex-grow: 1;
+        }
+
+        /* 超連結樣式 */
+        .card a {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #319795;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+
+        .card a:hover {
+            color: #2c5282;
+            text-decoration: underline;
+        }
+
+        /* 心得區塊樣式 */
+        .reflection-box {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-top: 4px solid #319795;
+        }
+
+        .reflection-content {
+            color: #4a5568;
+            white-space: pre-line; /* 保留換行換段的格式 */
+        }
+
+        /* 頁尾 */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #718096;
+            font-size: 0.9rem;
+            margin-top: 4rem;
+            border-top: 1px solid #e2e8f0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>高雄經典現代建築與空間設計</h1>
+        <div class="student-info">
+            姓名：<span>李琳</span>
+            班級：<span>建一甲</span>
+            學號：<span>91422112</span>
+        </div>
+    </header>
+
+    <div class="container">
+     
+        <section>
+            <h2>經典空間地標</h2>
+            <div class="landmark-grid">
+                
+                <div class="card">
+                    <div>
+                        <h3>高雄車站</h3>
+                        <p>新高雄車站由荷蘭建築團隊 Mecanoo 設計，最引人注目的是內部由純白曲線交織而成的「下沉式廣場」天棚。前衛的雲朵狀天花辦公空間與綠意盎然的頂層景觀步道，將公共綠地與都市交通完美鎔接。</p>
+                    </div>
+                    <a href="2nd.html">查看空間分析 &rarr;</a>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <h3>駁二藝術特區</h3>
+                        <p>由歷史老舊倉庫群轉型而來的獨特場域，將原有的工業鋼結構與磚牆融入現代裝置藝術與當代設計。空間規劃上成功打破了傳統館舍的疆界，讓港口海景與前衛創作在開放式的徒步區中對話。</p>
+                    </div>
+                    <a href="3rd.html">查看空間分析 &rarr;</a>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <h3>高雄流行音樂中心</h3>
+                        <p>由西班牙建築團隊與台灣團隊共同打造，音浪塔以海浪意象為造型，獨特的蜂巢狀六角幾何流線外觀，與一旁宛如海豚躍動的低音塔互為呼應，是南台灣極具數位現代主義色彩的港灣地標。</p>
+                    </div>
+                    <a href="4th.html">查看空間分析 &rarr;</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>網際網路與 AI 應用課程學習心得</h2>
+            <div class="reflection-box">
+                <p class="reflection-content">
+我覺得這門課非常有趣，讓我學習到許多以前完全沒接觸過的網站架設、AI應用及許多電腦知識，讓人收穫滿滿。
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2026 高雄經典現代建築與空間設計網頁作業
+    </footer>
+
+</body>
+</html>
